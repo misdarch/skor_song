@@ -1,0 +1,30 @@
+.playerBoard {
+    display: flex;
+    position: relative;
+}
+
+.playerBoard input {
+    padding: 12px 0;
+    font-size: 21px;
+    text-align: center;
+}
+
+.playerBoard .playerInput {
+    display: flex;
+}
+
+.playerName {
+    width: 30vw;
+}
+
+.playerInput input {
+    width: 15vw;
+}
+
+.playerInput .inputScore {
+    width: 20vw;
+}
+
+.currentScore {
+    width: 20vw;
+}
