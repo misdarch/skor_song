@@ -1,5 +1,4 @@
 import css from '../styles/Home.module.css'
-import Head from "next/head"
 import { useState } from "react"
 import { create } from "zustand"
 
@@ -13,9 +12,6 @@ const useStore = create((set) => ({
 export default function Home() {
   return (
 <>
-    <Head>
-        <link rel="manifest" href="/manifest.json" />
-    </Head>
     <PlayerBoard player="p1" />
     <PlayerBoard player="p2" />
     <PlayerBoard player="p3" />
