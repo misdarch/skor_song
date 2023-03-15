@@ -1,3 +1,7 @@
+.scoreBoard {
+    width: 100vw;height: auto;
+}
+
 .playerBoard {
     display: flex;
     position: relative;
@@ -27,4 +31,13 @@
 
 .currentScore {
     width: 20vw;
+}
+
+.logs {
+    width: 100vw;height: 50vh;
+    display: flex;
+    position: relative;
+    width: 100vw;
+    justify-content: space-evenly;
+    overflow: scroll;
 }
